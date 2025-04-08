@@ -43,7 +43,7 @@ const StudentSchema = new mongoose.Schema({
   dob: { type: String, required: true },
   password: { type: String, required: true },
   department: { type: String, required: true },
-  section: { type: String, required: true },
+  section: { type: String },
 
   // Subjects the student is enrolled in
   subjects: [{ type: mongoose.Schema.Types.ObjectId, ref: "Subject" }],
