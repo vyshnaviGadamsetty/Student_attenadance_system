@@ -6,7 +6,7 @@ A full-stack web application for managing B.Tech student attendance. It provides
 
 ---
 
-![Logo](./src/assets/logo.jpeg)
+![Logo](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/logo.jpeg)
 
 ## ✨ Features
 
@@ -34,38 +34,44 @@ A full-stack web application for managing B.Tech student attendance. It provides
 ## 🖼️ Screenshots
 
 ### 🔐 Login
-![Login](./src/assets/Login.png)
+![Login](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Login.png)
 
 ### 🛠️ Admin Dashboard
-![Admin Dashboard](./src/assets/Admin_Dashboard.png)
+![Admin Dashboard](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Admin_Dashboard.png)
 
 ### 👩‍🏫 Manage Teachers & Students
 | Manage Teachers | Manage Students |
 |-----------------|-----------------|
-| ![Manage Teachers](./src/assets/manage_teachers.png) | ![Manage Students](./src/assets/manage_students.png) |
+| ![Manage Teachers](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_teachers.png) | ![Manage Students](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_students.png) |
 
 ### 🧩 Manage Sections & Timetables
-| Sections | Timetables |
+| Sections Timetables | Student Timetables |
 |----------|------------|
-| ![Manage Section](./src/assets/manage_section.png) | ![Manage Timetable](./src/assets/Manage_Teacher_Timetable.png) |
+| ![Manage Section](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_section.png) | ![Manage Timetable](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Manage_Teacher_Timetable.png) |
 
 ### 🧾 Manual Attendance
-![Manual Attendance](./src/assets/Manual_Attendance.png)
+![Manual Attendance](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Manual_Attendance.png)
 
 ### 🔐 Random Code Attendance
 | Teacher Side | Student Side |
 |--------------|---------------|
-| ![Generate Code](./src/assets/Random_code_Attendance.png) | ![Enter Code](./src/assets/entering_random_number.png) |
+| ![Generate Code](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Random_code_Attendance.png) | ![Enter Code](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/entering_random_number.png) |
 
+### 🛠️ View Timetable of a student
+![Student Timetable](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Students_Timetable.png)
+### 🛠️ View Attendance Percentage
+![Attendance Percentage](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/View_Attendance.png)
 ### 📑 View & Request Attendance
-| View Attendance | Request Attendance |
+| View Request| Request Attendance |
 |------------------|--------------------|
-| ![View Attendance](./src/assets/View_Attendance.png) | ![Request Page](./src/assets/request_page.png) |
+| ![View Request](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/accepting_request.png) | ![Request Page](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/request_page.png) |
 
-### ✅ Attendance Summary & Request Status
-| Summary | Status |
-|---------|--------|
-| ![Summary](./src/assets/summary_post.png) | ![Status](./src/assets/request_status.png) |
+### ✅  Request Status
+![Status](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/request_status.png) 
+### 🔐 Post Summary
+| Teacher Side | Student Side |
+|--------------|---------------|
+| ![Post Summary](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/summary_post.png) | ![Enter Code](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/summary%20page.png) |
 
 ---
 
