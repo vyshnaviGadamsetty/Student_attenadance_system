@@ -44,8 +44,8 @@ A full-stack web application for managing B.Tech student attendance. It provides
 |-----------------|-----------------|
 | ![Manage Teachers](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_teachers.png) | ![Manage Students](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_students.png) |
 
-### 🧩 Manage Sections & Timetables
-| Sections Timetables | Student Timetables |
+### 🧩 Manage Sections & Teacher Timetables
+| Sections Timetables | Teacher Timetables |
 |----------|------------|
 | ![Manage Section](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/manage_section.png) | ![Manage Timetable](https://github.com/vyshnaviGadamsetty/Student_attenadance_system/blob/e6306b31882d23b5639324be5e5ff5411650af39/frontend/src/assets/Manage_Teacher_Timetable.png) |
 
