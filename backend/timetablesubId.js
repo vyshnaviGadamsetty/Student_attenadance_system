@@ -2,8 +2,7 @@ import mongoose from "mongoose";
 import Timetable from "./models/Timetable.js";
 import Subject from "./models/Subject.js";
 
-// 🔄 Replace with your actual MongoDB URI
-const mongoURI = "mongodb://localhost:27017/attendance"; // change this
+const mongoURI = "mongodb://localhost:27017/attendance";
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
