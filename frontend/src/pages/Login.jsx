@@ -225,7 +225,7 @@ const Login = () => {
           {error && <p className="error-text">{error}</p>}
 
           <div className="login-footer">
-          {/*<a href="#" className="forgot-password">FORGOT PASSWORD?</a>*/}
+          <a href="/forgot-password" className="forgot-password">FORGOT PASSWORD?</a>
             <button type="submit" className="login-button">LOGIN</button>
           </div>
         </form>

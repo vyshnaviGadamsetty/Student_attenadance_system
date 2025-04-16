@@ -35,6 +35,39 @@
 
 // export default mongoose.model("Student", StudentSchema);
 
+// import mongoose from "mongoose";
+
+// const StudentSchema = new mongoose.Schema({
+//   studentId: { type: String, required: true, unique: true },
+//   name: { type: String, required: true },
+//   dob: { type: String, required: true },
+//   password: { type: String, required: true },
+//   department: { type: String, required: true },
+//   section: { type: String },
+
+//   // Subjects the student is enrolled in
+//   subjects: [{ type: mongoose.Schema.Types.ObjectId, ref: "Subject" }],
+
+//   // Attendance records for each subject
+//   attendance: [
+//     {
+//       subject: { type: mongoose.Schema.Types.ObjectId, ref: "Subject" },
+//       totalClasses: { type: Number, default: 0 },
+//       attendedClasses: { type: Number, default: 0 },
+//       percentage: { type: Number, default: 0 },
+//       lastMarked: { type: Date }
+//     }
+//   ],
+
+//   // Optional: to track session IDs or timestamps
+//   attendedSessions: {
+//     type: [String],
+//     default: []
+//   }
+// });
+
+// export default mongoose.model("Student", StudentSchema);
+
 import mongoose from "mongoose";
 
 const StudentSchema = new mongoose.Schema({
@@ -42,6 +75,7 @@ const StudentSchema = new mongoose.Schema({
   name: { type: String, required: true },
   dob: { type: String, required: true },
   password: { type: String, required: true },
+  email: { type: String, required: true, unique: true }, // 📧 Added email field
   department: { type: String, required: true },
   section: { type: String },
 
@@ -59,11 +93,15 @@ const StudentSchema = new mongoose.Schema({
     }
   ],
 
-  // Optional: to track session IDs or timestamps
+  // Track which sessions student has attended
   attendedSessions: {
     type: [String],
     default: []
-  }
+  },
+
+  // 🔐 For password reset
+  resetPasswordToken: { type: String },
+  resetPasswordExpires: { type: Date }
 });
 
 export default mongoose.model("Student", StudentSchema);

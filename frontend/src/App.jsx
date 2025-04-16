@@ -151,6 +151,8 @@ import Logout from "./pages/Logout";
 import ProtectedRoute from "./components/ProtectedRoute"; // Import the protected route component
 
 import DashboardLayout from "./layouts/DashboardLayout";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 // Admin Pages
 import AdminDashboard from "./pages/admin/AdminDashboard";
@@ -181,6 +183,8 @@ function App() {
         {/* 🔐 Auth */}
         <Route path="/" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/reset-password/:token" element={<ResetPassword />} />
 
         {/* 🛠 Admin Routes */}
         <Route path="/admin" element={<ProtectedRoute allowedRoles={["admin"]} />}>
@@ -197,8 +201,9 @@ function App() {
         {/* 👨‍🏫 Teacher Routes */}
         <Route path="/teacher" element={<ProtectedRoute allowedRoles={["teacher"]} />}>
           <Route element={<DashboardLayout />}>
-            <Route index element={<Navigate to="/teacher/post-summary" replace />} />
-            <Route path="dashboard" element={<Navigate to="/teacher/post-summary" replace />} />
+          <Route index element={<Navigate to="/teacher/timetable" replace />} />
+<Route path="dashboard" element={<Navigate to="/teacher/timetable" replace />} />
+
             <Route path="post-summary" element={<TeacherSummaries />} />
             <Route path="attendance-requests" element={<ViewRequests />} />
             <Route path="timetable" element={<Tt />} />
